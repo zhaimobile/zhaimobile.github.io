@@ -179,7 +179,7 @@ function challengeForAuth() {
     "&response_type=token" +
     "&redirect_uri=" + encodeURIComponent(appInfo.redirectUri);
     
-  url="https://login.microsoftonline.com/common/oauth2/authorize?response_type=code" +
+  url_bz="https://login.microsoftonline.com/common/oauth2/authorize?response_type=code" +
     "&client_id=" + appInfo.clientId +
     "&redirect_uri=" + encodeURIComponent(appInfo.redirectUri);
     
