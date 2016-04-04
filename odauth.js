@@ -178,12 +178,19 @@ function challengeForAuth() {
     "&scope=" + encodeURIComponent(appInfo.scopes) +
     "&response_type=token" +
     "&redirect_uri=" + encodeURIComponent(appInfo.redirectUri);
+  
+  var url_code =
+    "https://login.live.com/oauth20_authorize.srf" +
+    "?client_id=" + appInfo.clientId +
+    "&scope=" + encodeURIComponent(appInfo.scopes) +
+    "&response_type=code" +
+    "&redirect_uri=" + encodeURIComponent(appInfo.redirectUri);
     
   url_bz="https://login.microsoftonline.com/common/oauth2/authorize?response_type=code" +
     "&client_id=" + appInfo.clientId +
     "&redirect_uri=" + encodeURIComponent(appInfo.redirectUri);
     
-  popup(url);
+  popup(url_code);
 }
 
 function popup(url) {
