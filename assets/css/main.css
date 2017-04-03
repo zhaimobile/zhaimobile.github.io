@@ -2184,7 +2184,7 @@
 			#main > section.one {
 				color: white;
 				background-color: #81918E;
-				background-image: url("../../images/banner.jpg");
+				/*background-image: url("../../images/banner.jpg");*/
 				padding: 0;
 			}
 

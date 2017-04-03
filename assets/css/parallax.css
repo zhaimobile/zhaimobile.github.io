@@ -115,3 +115,16 @@
 .video-container video.fillWidth {
     width: 100%;
 }
+
+.poster.hidden{
+    display: none;
+}
+
+.video-container .title-container {
+    z-index: 1000;
+    position: absolute;
+    top: 35%;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+}
