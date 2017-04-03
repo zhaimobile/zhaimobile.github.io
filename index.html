@@ -1,28 +1,354 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <script src="https://simplewebrtc.com/latest-v2.js"></script>
-    </head>
-    <body>
-        <video height="300" id="localVideo"></video>
-        <div id="remotesVideos"></div>
-    </body>
+<html lang="en">
+<head>
+	<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+	<meta content="IE=edge" http-equiv="X-UA-Compatible" />
+	<meta content="width=device-width, initial-scale=1" name="viewport" />
+	<meta content="" name="description" />
+	<meta content="" name="author" />
+	<title>Mo Zhai</title>
+	<!-- Bootstrap Core CSS -->
+	<link href="css/bootstrap.min.css" rel="stylesheet" /><!-- Custom CSS -->
+	<link href="css/onepage-starter.css" rel="stylesheet" /><!-- Custom Fonts -->
+	<link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,700,800" rel="stylesheet" type="text/css" /><!-- Icons -->
+	<link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css" /><!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]--><!-- Owl Carousel Assets -->
+	<link href="owl-carousel/owl.carousel.css" rel="stylesheet" />
+	<link href="owl-carousel/owl.theme.css" rel="stylesheet" />
+	<style type="text/css">.item {
+		background:rgba(255,255,255,0.7);
+		padding:7px;
+		margin:10px;
+	}
+	#owl-projects .owl-pagination{
+		display:none;
+	}
+	</style>
+</head>
+<body data-spy="scroll" data-target=".navbar-fixed-top" id="page-top"><!-- Navigation -->
+<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+<div class="container-fluid">
+<div class="navbar-header page-scroll"><button class="navbar-toggle" data-target=".navbar-ex1-collapse" data-toggle="collapse" type="button"><span class="sr-only">Toggle navigation</span></button><a class="navbar-brand page-scroll" href="#page-top">Mo Zhai</a></div>
+<!-- Collect the nav links, forms, and other content for toggling -->
+
+<div class="collapse navbar-collapse navbar-right navbar-ex1-collapse">
+<ul class="nav navbar-nav"><!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+	<li class="hidden"></li>
+	<li><a class="page-scroll" href="#about">about me</a></li>
+	<li><a class="page-scroll" href="#services">what i do</a></li>
+	<li><a class="page-scroll" href="#contact">contact</a></li>
+</ul>
+</div>
+<!-- /.navbar-collapse --></div>
+<!-- /.container --></nav>
+<!-- Intro Section -->
+
+<section class="intro-section parallax" data-speed="4" data-type="background" id="intro">
+<div class="overlay intro" style="display:table">
+<div class="container-fluid site-wrapper-inner">
+<div class="row">
+<div class="col-md-8 col-md-offset-1">
+<h1>I am Mo!</h1>
+
+<p>I am an experienced software engineer with years of professional practice. My experience covers using Objective-C, Java, .NET, C++, JavaScript, Python, and many other languages on top of most popular frameworks. I also have solid big data analysis practical skills and academic background. I have delivered several enterprise web applications as well as mobile apps for business on both iOS App Store and Android Play Store. I am a hard worker with great learning skills and an enthusiastic heart for IT industry.</p>
+
+<p><a class="btn-md page-scroll" href="#about"><i class="fa fa-lg fa-arrow-circle-down">about me &nbsp;</i></a> <a class="btn-md page-scroll" download="Mo_Zhai_Résumé" href="content/resume_v15c.pdf" target="_blank"><i class="fa fa-lg fa-cloud-download"> my r&eacute;sum&eacute; </i></a></p>
+
+<p></p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- About Section -->
+
+<section class="about-section parallax" data-speed="4" data-type="background" id="about">
+<div class="overlay">
+<div class="col-md-8 col-md-offset-1">
+<h1>About Me</h1>
+</div>
+
+<div class="owl-carousel" id="owl-about">
+<div class="col-md-8 col-md-offset-1">
+<h3>Experience</h3>
+
+<p><b>Software Engineer</b></p>
+
+<h4>Echelon&nbsp;&nbsp;&nbsp;&nbsp;5/2012 - now</h4>
+
+<p><b>Software developer internships</b></p>
+
+<h4>Space to Play&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2/2012 - 4/2012</h4>
+
+<p><b>Graduate Assistant and Tech support </b></p>
+
+<h4>College of Computing and Digital Media, DePaul University&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;01/2011 - 03/2012</h4>
+
+<p><b>Network Engineer</b></p>
+
+<h4>China Mobile &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08/2007 &ndash; 03/2009</h4>
+</div>
+
+<div class="col-md-8 col-md-offset-1">
+<h3>Education</h3>
+
+<h4><b>Master of Science in Analytics</b></h4>
+
+<h4>University of Chicago</h4>
+
+<h4>Master Candidate</h4>
+
+<h4><b>Master of Science in Computer Game Development</b></h4>
+
+<h4>DePaul University</h4>
+
+<h4>Graduation: March, 2012 (with distinction)</h4>
+
+<h4>GPA=3.98</h4>
+
+</div>
+
+<div class="col-md-8 col-md-offset-1">
+<h3>Skills</h3>
+
+<h4><b>Frameworks:</b></h4>
+
+<h4>iOS, Android, Liferay, ASP.Net, J2EE, Dojo, Lucene.Net, OpenGL</h4>
+
+<h4><b>Language:</b></h4>
+
+<h4>Objective C, Java, JavaScript, C++, C#, Python</h4>
+
+<h4><b>IDE:</b></h4>
+
+<h4>Visual Studio, Xcode, Eclipse, and etc</h4>
+
+<h4><b>Platforms:</b></h4>
+
+<h4>MacOS X, Windows, Linux</h4>
+</div>
+</div>
+
+<div class="col-md-8 col-md-offset-1"><a class="btn-md page-scroll" href="#services"><i class="fa fa-lg fa-arrow-circle-down">what i do</i></a></div>
+</div>
+</section>
+<!-- Services Section -->
+
+<section class="services-section parallax" data-speed="4" data-type="background" id="services">
+<div class="overlay">
+<div class="col-md-8 col-md-offset-1">
+<h1>What I Do</h1>
+</div>
+
+<div class="owl-carousel" id="owl-projects" style="padding:3%; margin-top:10px">
+<div class="item"><img alt="Gaming" src="img/demo-slides/game.png" />
+<h2>Gaming</h2>
+
+<h3>C++, OpenGL</h3>
+
+<h3></h3>
+
+<h4>Master degree in Game Development, with distinction. Having soild game programming skills and enthusiastic heart for game industry. Working on side projects in spare times.</h4>
+
+<h4>Game Installer:<a href="https://www.dropbox.com/s/zv6g999rv8ufzhb/GameInstaller.exe?dl=0" target="_blank">3D Fps Game</a></h4>
+
+<h4>Github: <a href="https://github.com/zhaimobile/iosGraphicEngine" target="_blank"> iOS Graphic Engine</a></h4>
+</div>
+
+<div class="item"><img alt="iOS" src="img/demo-slides/ios.png" />
+<h2>iOS</h2>
+
+<h3>Objective C, Core Data, Swift, Auto layout</h3>
+
+<h4>Experienced iOS engineer, with solid platform knowledge and programming skills. Working on both frontend and backend with big picture in mind. Having good insights of user experience and UI design.</h4>
+
+<h4>App store: <a href="https://itunes.apple.com/us/app/sidley-mobile/id574510600" target="_blank">SIDLEY mobile</a></h4>
+
+<h4>App store: <a href="https://itunes.apple.com/us/app/a.t.-kearney-ideas-insights/id506749703" target="_blank">Ideas and Insights</a></h4>
+</div>
+
+<div class="item"><img alt="Java" src="img/demo-slides/java.png" />
+<h2>Java Web Development</h2>
+
+<h3>Java, Dojo, Liferay</h3>
+
+<h3></h3>
+
+<h4>Experienced in full stack development for enterprise web applications using Liferay. Strong Knowledge of Java language and software engineering(OO) Design Principles.</h4>
+
+<h4>Website: <a href="http://www.atkearney.com/" target="_blank">Atkearney.com</a></h4>
+</div>
+
+<div class="item"><img alt="Android" src="img/demo-slides/android.png" />
+<h2>Android</h2>
+
+<h3>Java, Android UI, SQLite</h3>
+
+<h3></h3>
+
+<h4>Independently completed Android app from scratch to Play stores for business. Having solid mobile development skills and having experience of implementing and testing variety sizes of android devices.</h4>
+
+<h4>Play store: <a href="https://play.google.com/store/apps/details?id=com.sidley.sidleymobile.android" target="_blank">SIDLEY mobile for Android</a></h4>
+</div>
+
+<div class="item"><img alt=".Net" src="img/demo-slides/dotnet.png" />
+<h2>.NET</h2>
+
+<h3>C#, ASP.NET, Entity Framework, Sql Server</h3>
+
+<h3></h3>
+
+<h4>Implemented variety web services (APIs) applications for mobile apps. Working on business web applicaion and side projects using MVC and Enitty Framowrk.</h4>
+
+<h4>Side project: <a href="http://www.youshell.com/" target="_blank">youshell.com</a></h4>
+</div>
+
+<div class="item"><img alt="Artificial Intelligence" src="img/demo-slides/ai.gif" />
+<h2>Artificial Intelligence, Search and Translation</h2>
+
+<h4>Working on AI Searching, and transtlation projects uisng C++ and Python for business tools and side projects for fun.</h4>
+
+<h4>Github: <a href="https://github.com/zhaimobile/aimo" target="_blank">AI DEMO</a></h4>
+</div>
+
+<div class="item dodgerBlue"><img alt="Front End" src="img/demo-slides/front.png" />
+<h2>Front End</h2>
+
+<h3>Javascript, CSS, Bootstrap, Responsive Design</h3>
+
+<h3></h3>
+
+<h4>Experienced in frontend development by using Javascript and CSS and Modern HTML5, Having solid experience on dgrid and Dojo Frameworks.</h4>
+</div>
+<!--
+        <div class="item">
+            <img src="img/demo-slides/ai.gif" alt="Zombie Browsers - old ones">
+            <h2> Search and Translation</h2>
+            <h3>ISM A* </h3>
+            <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+            exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat </h4>
+        </div>
+--></div>
+
+<div class="col-md-8 col-md-offset-1">
+<p><a class="btn-md page-scroll" href="#contact"><i class="fa fa-lg fa-arrow-circle-down">contact </i></a></p>
+</div>
+</div>
+</section>
+<!-- Contact Section -->
+
+<section class="contact-section parallax" data-speed="4" data-type="background" id="contact">
+<div class="overlay">
+<div class="container-fluid">
+<div class="row">
+<div class="col-md-8 col-md-offset-1">
+<h1>Contact</h1>
+
+<div>1014 Whirlaway Ave</div>
+
+<div>Naperville, IL 60540</div>
+
+<p></p>
+
+<div>Phone: (773) 678-3620</div>
+
+<div>E-mail: <a href="mailto:zhai@uchicago.edu?Subject=Hello%20Mo" target="_top">zhai@uchicago.edu</a></div>
+
+<div>Site: <a href="http://www.zhaimobile.com">www.zhaimobile.com</a></div>
+
+<p></p>
+
+<p><a class="btn-md page-scroll" href="#page-top"><i class="fa fa-lg fa-home">home &nbsp;</i></a> <a class="btn-md page-scroll" download="Mo_Zhai_Résumé" href="content/resume_v15c.pdf" target="_blank"><i class="fa fa-lg fa-cloud-download"> my r&eacute;sum&eacute; </i></a></p>
+
+<p></p>
+
+<p></p>
+
+<ul class="list-inline lead">
+
+<li>
+<a href="https://github.com/zhaimobile" target="_blank">
+<span class="fa-stack fa-lg">
+<i class="fa fa-circle fa-stack-2x"></i>
+<i class="fa fa-github fa-stack-1x fa-inverse"></i>
+</span>
+</a>
+</li>
+<li>
+<a href="https://twitter.com/mozhai1990" target="_blank">
+<span class="fa-stack fa-lg">
+<i class="fa fa-circle fa-stack-2x"></i>
+<i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+</span>
+</a>
+</li>
+<li>
+<a href="mailto:zhai@uchicago.edu" target="_blank">
+<span class="fa-stack fa-lg">
+<i class="fa fa-circle fa-stack-2x"></i>
+<i class="fa fa-envelope fa-stack-1x fa-inverse"></i>
+</span>
+</a>
+</li>
+
+<li>
+<a href="http://www.renren.com/462170424" target="_blank">
+<span class="fa-stack fa-lg">
+<i class="fa fa-circle fa-stack-2x"></i>
+<i class="fa fa-renren fa-stack-1x fa-inverse"></i>
+</span>
+</a>
+</li>
+
+<li>
+<a href="http://www.zhaimobile.com">
+<span class="fa-stack fa-lg">
+<i class="fa fa-circle fa-stack-2x"></i>
+<i class="fa fa-laptop fa-stack-1x fa-inverse"></i>
+</span>
+</a>
+</li>
+
+
+</ul>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- jQuery --><script src="js/jquery.js"></script><!-- Bootstrap Core JavaScript --><script src="js/bootstrap.min.js"></script><script src="js/jquery.easing.min.js"></script><script src="js/SmoothScroll.js"></script><script src="js/onepage-starter.js"></script><script src="owl-carousel/owl.carousel.min.js"></script><script>
+	$(document).ready(function($) {
+		$("#owl-about").owlCarousel({
+			singleItem:true,
+			//autoPlay : 5000,
+		});
+    });
+	$(document).ready(function($) {
+		$("#owl-projects").owlCarousel({
+			autoPlay : 5000,
+		});
+    });
     
-    <script>
-    	var webrtc = new SimpleWebRTC({
-  			// the id/element dom element that will hold "our" video
-  			localVideoEl: 'localVideo',
-  			// the id/element dom element that will hold remote videos
-  			remoteVideosEl: 'remotesVideos',
-  			// immediately ask for camera access
-  			autoRequestMedia: true
-		});
-		
-		// we have to wait until it's ready
-		webrtc.on('readyToCall', function () {
-  			// you can name it anything
-  			webrtc.joinRoom('撸师妹');
-		});
-		
-    </script>
+    
+    
+    window.addEventListener('load', function(e) {
+    
+    window.applicationCache.addEventListener('updateready', function(e) {
+    if (window.applicationCache.status == window.applicationCache.UPDATEREADY) {
+    // Browser downloaded a new app cache.
+    // Swap it in and reload the page to get the new hotness.
+    window.applicationCache.swapCache();
+    if (confirm('A new version of this site is available. Load it?')) {
+    window.location.reload();
+    }
+    } else {
+    // Manifest didn't changed. Nothing new to server.
+    }
+    }, false);
+    
+    }, false);
+</script></body>
 </html>

@@ -1,0 +1,179 @@
+/*!
+ * Code/Design - One Page Starter HTML Template (http://codedesign.elkind.net)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+body {
+    width: 100%;
+    height: 100%;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    line-height: 2;
+    background-color: #fff;
+    color: #444;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+a {
+    color: #036;
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+}
+
+a:hover, a:focus {
+    color: #369;
+    text-decoration: none;
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+}
+
+a .fa-stack {
+    color: #46b8da;
+}
+
+.btn {
+    border-radius: 2px;
+    margin-bottom:10px;
+}
+
+h1 {
+    font-size: 46px;
+    font-weight: 300;
+}
+
+.navbar-brand {
+    font-size: 22px;
+    line-height: 20px;
+    font-weight: 400;
+}
+
+.navbar-default {
+    background-color: transparent;
+    border: 0;
+    text-transform: uppercase;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #444;
+}
+
+.top-nav-collapse {
+    background-color: #f8f8f8;
+    border-color: #e7e7e7;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+}
+
+.site-wrapper-inner {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+
+.btn-lg {
+    padding: 15px 20px;
+    font-weight: bold;
+}
+
+.btn-default {
+    background-color: transparent;
+    border: 2px solid #000;
+}
+
+.btn-default:hover, .btn-default:focus {
+    background-color: transparent;
+    color:#555;
+}
+
+.intro-section {
+    background: url(../img/7.jpg);
+}
+.about-section {
+    background: url(../img/5.jpg);
+}
+.services-section {
+    background: url(../img/6.jpg);
+}
+.contact-section {
+    background: url(../img/3.jpg);
+}
+.overlay {
+    padding: 150px 0;
+    height: 100%;
+
+    background: rgba(255,255,255,1);
+    /* Old Browsers */background: -moz-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 80%);
+    /* FF3.6+ */background: -webkit-gradient(left top, right top, color-stop(0%, rgba(255,255,255,1)), color-stop(80%, rgba(255,255,255,0)));
+    /* Chrome, Safari4+ */background: -webkit-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 80%);
+    /* Chrome10+,Safari5.1+ */background: -o-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 80%);
+    /* Opera 11.10+ */background: -ms-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 80%);
+    /* IE 10+ */background: linear-gradient(to right, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 80%);
+    /* W3C */filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff', GradientType=1 );
+    /* IE6-9 */
+
+/* 
+    display: table;
+ */
+    width: 100%;
+}
+.parallax {
+    height: 100%;
+    margin: 0 auto;
+    width: 100%;
+    position: relative;
+    background-position: 50% 50%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+@media(min-width:767px) {
+    .navbar {
+        padding: 20px 0;
+        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        transition: background .5s ease-in-out,padding .5s ease-in-out;
+    }
+
+    .top-nav-collapse {
+        padding: 0;
+    }
+
+}
+
+@media(max-width:767px) {
+    
+    h1 {
+        font-size: 36px;
+        font-weight: 300;
+    }
+    
+    .parallax, .overlay {
+        height: auto;
+        background-position: 50% 50%!important;
+    }
+    .overlay {
+        padding: 40px 0;
+        background: rgba(255, 255, 255, 0.7);
+    }
+    
+    .overlay .intro{
+        padding: 70px 0;
+        background: rgba(255, 255, 255, 0.7);
+    }
+    .navbar-default .navbar-collapse {
+        background-color: #f8f8f8;
+    }
+}
