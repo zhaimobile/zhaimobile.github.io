@@ -2182,20 +2182,28 @@
 			}
 
 			#main > section.one {
+				color: white;
 				background-color: #81918E;
 				background-image: url("../../images/banner.jpg");
+				padding: 0;
 			}
 
 			#main > section.two {
+				color: white;
 				background-color: #f5fafa;
+				/*background-image: url("../../images/aboutme.jpg");*/
+				/*padding: 0;*/
 			}
 
 			#main > section.three {
-				background-color: #ecf1f1;
+				/*background-color: #ecf1f1;*/
 			}
 
 			#main > section.four {
 				background-color: #e8edec;
+				background-image: url("../../images/contact.jpg");
+				padding: 0;
+
 			}
 
 /* Wide */

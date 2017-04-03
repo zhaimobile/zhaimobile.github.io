@@ -23,3 +23,54 @@
 		background-attachment: fixed;
 	}
 }
+
+.overlay {
+    padding: 150px 0;
+    height: 100%;
+    background: rgba(255,255,255,1);
+    /* Old Browsers */
+    background: -moz-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 80%);
+    /* FF3.6+ */
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(255,255,255,1)), color-stop(80%, rgba(255,255,255,0)));
+    /* Chrome, Safari4+ */
+    background: -webkit-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 80%);
+    /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 80%);
+    /* Opera 11.10+ */
+    background: -ms-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 80%);
+    /* IE 10+ */
+    /* background: linear-gradient(to right, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 80%); */
+    /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff', GradientType=1 );
+    /* IE6-9 */
+    /* 
+    display: table;
+ */
+    width: 100%;
+}
+
+.overlay2 {
+    padding: 150px 0;
+    height: 100%;
+    background: rgba(255,255,255,1);
+    /* Old Browsers */
+    background: -moz-linear-gradient(left, rgba(255,255,255,0.1) 0%, rgba(255,255,255,0.5) 95%);
+    /* FF3.6+ */
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(255,255,255,0.1)), color-stop(95%, rgba(255,255,255,0.5)));
+    /* Chrome, Safari4+ */
+    background: -webkit-linear-gradient(left, rgba(255,255,255,0.1) 0%, rgba(255,255,255,0.5) 95%);
+    /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(left, rgba(255,255,255,0.1) 0%, rgba(255,255,255,0.5) 95%);
+    /* Opera 11.10+ */
+    background: -ms-linear-gradient(left, rgba(255,255,255,0.1) 0%, rgba(255,255,255,0.5) 95%);
+    /* IE 10+ */
+    /* background: linear-gradient(to right, rgba(255,255,255,0.1) 0%, rgba(255,255,255,0.5) 95%); */
+    /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff', GradientType=1 );
+    /* IE6-9 */
+    /* 
+    display: table;
+ */
+    width: 100%;
+}
+

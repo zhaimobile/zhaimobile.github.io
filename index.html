@@ -47,7 +47,7 @@
 							<ul>
 								<li><a href="#top" id="top-link" class="skel-layers-ignoreHref"><span class="icon fa-home">I am Mo!</span></a></li>
 								<li><a href="#about" id="about-link" class="skel-layers-ignoreHref"><span class="icon fa-user">About Me</span></a></li>
-								<li><a href="#skills" id="skills-link" class="skel-layers-ignoreHref"><span class="icon fa-user">Skills and Knowledge</span></a></li>
+								<!--<li><a href="#skills" id="skills-link" class="skel-layers-ignoreHref"><span class="icon fa-user">Skills and Knowledge</span></a></li>-->
 								<li><a href="#portfolio" id="portfolio-link" class="skel-layers-ignoreHref"><span class="icon fa-th">Portfolio</span></a></li>
 								<li><a href="#contact" id="contact-link" class="skel-layers-ignoreHref"><span class="icon fa-envelope">Contact</span></a></li>
 							</ul>
@@ -63,7 +63,7 @@
 							<li><a href="https://github.com/zhaimobile" class="icon fa-github" target="_blank"><span class="label">Github</span></a></li>
 							<li><a href="https://twitter.com/mozhai1990" class="icon fa-twitter" target="_blank"><span class="label">Twitter</span></a></li>
 							<li><a href="mailto:zhai@uchicago.edu" class="icon fa-envelope"><span class="label">Email</span></a></li>
-							<li><a href="content/resume_v15c.pdf" class="icon fa-cloud-download" target="_blank" download="Mo_Zhai_Résumé"><span class="label">Résumé</span></a></li>
+							<li><a class="icon fa-cloud-download" download="Mo_Zhai_Résumé" href="content/MoZhaiResumeV17_.pdf" target="_blank"><span class="label">Résumé</span></a></li>
 						</ul>
 
 				</div>
@@ -74,9 +74,10 @@
 			<div id="main">
 
 				<!-- Intro -->
-					<section id="top" class="one dark cover parallax">
+					<section id="top" class="one dark parallax">
+						<div class="overlay2">
 						<div class="container">
-							<h2 class="alt">I am Mo!</h2>
+							<h2>I am Mo!</h2>
 							<p>I am an experienced software engineer with years of professional practice. 
 								My experience covers using Objective-C, Java, R, Python, .NET, C++, JavaScript, 
 								and many other languages on top of most popular frameworks. 
@@ -86,17 +87,17 @@
 								<a class="btn-md scrolly" href="#about">
 									<i class="fa fa-lg fa-arrow-circle-down">about me &nbsp;</i>
 								</a> 
-								<a class="btn-md scrolly" download="Mo_Zhai_Résumé" href="content/resume_v15c.pdf" target="_blank">
+								<a class="btn-md scrolly" download="Mo_Zhai_Résumé" href="content/MoZhaiResumeV17_.pdf" target="_blank">
 									<i class="fa fa-lg fa-cloud-download"> my résumé </i>
 								</a>
 							</footer>
-
+						</div>
 						</div>
 					</section>
 
 				<!-- About Section -->
 				<section id="about" class="two parallax" data-speed="2" data-type="background">
-					<div class="overlay container">
+					<div class="container">
 						<header>
 							<h2>About Me</h2>
 						</header>
@@ -140,18 +141,18 @@
 								<h4>Visual Studio, Xcode, Eclipse, PyCharm, R studio, git, JIRA, AWS, Azure, TFS, Bazaar, Unity3D</h4>
 							</div>
 						</div>
-
 						<!--<a href="#" class="image featured"><img src="images/pic08.jpg" alt="" /></a>-->
 					</div>
 				</section>
 
-				<!-- Portfolio -->
+				<!-- Skills -->
+				<!--
 					<section id="skills" class="three">
 						<div class="container">
 							<header>
 								<h2>Skills</h2>
 							</header>
-							<!--<p>Vitae natoque dictum etiam semper magnis enim.</p>-->
+							<p>Vitae natoque dictum etiam semper magnis enim.</p>
 
 							<div class="row">
 								<div class="4u 12u$(mobile)">
@@ -199,11 +200,11 @@
 							</div>
 
 						</div>
-					</section>
+					</section>-->
 
 				<!-- Services Section -->
-				<section id="portfolio" class="services-section parallax" data-speed="4" data-type="background">
-					<div class="container overlay">
+				<section id="portfolio" class="three parallax" data-speed="4" data-type="background">
+					<div class="container">
 						<header>
 							<h2>Portfolio</h2>
 						</header>
@@ -308,19 +309,32 @@
 
 
 				<!-- Contact -->
-					<section id="contact" class="four">
+					<section id="contact" class="four parallax">
+
+						<div class="overlay">
 						<div class="container">
 
 							<header>
 								<h2>Contact</h2>
 							</header>
 
-							<p>Elementum sem parturient nulla quam placerat viverra
-							mauris non cum elit tempus ullamcorper dolor. Libero rutrum ut lacinia
-							donec curae mus. Eleifend id porttitor ac ultricies lobortis sem nunc
-							orci ridiculus faucibus a consectetur. Porttitor curae mauris urna mi dolor.</p>
+							<h1>Contact</h1>
+							<div>1014 Whirlaway Ave</div>
+							<div>Naperville, IL 60540</div>
+							<p></p>
+							<div>Phone: (773) 678-3620 </div>
+							<div>E-mail: <a href="mailto:mozhai@live.com?Subject=Hello%20Mo" target="_top">mozhai@live.com</a></div>
+							<div>Website: <a href="http://www.zhaimobile.com">www.zhaimobile.com</a></div>
+							<div>LinkedIn: <a href="https://www.linkedin.com/in/mozhai/">www.linkedin.com/in/mozhai/</a></div>
 
-							<form method="post" action="#">
+							<p>&nbsp;</p>
+							<p>
+								<a class="btn-md page-scroll" href="#top"><i class="fa fa-lg fa-home"> home  &nbsp;</i></a>
+							</p>
+
+
+
+							<!--<form method="post" action="#">
 								<div class="row">
 									<div class="6u 12u$(mobile)"><input type="text" name="name" placeholder="Name" /></div>
 									<div class="6u$ 12u$(mobile)"><input type="text" name="email" placeholder="Email" /></div>
@@ -331,8 +345,9 @@
 										<input type="submit" value="Send Message" />
 									</div>
 								</div>
-							</form>
-
+							</form>-->
+							
+						</div>
 						</div>
 					</section>
 
