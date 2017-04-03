@@ -1707,14 +1707,14 @@
 		}
 
 		.image.avatar48 {
-			width: 48px;
-			height: 48px;
+			width: 64px;
+			height: 64px;
 			background: #f00;
 		}
 
 			.image.avatar48 img {
-				width: 48px;
-				height: 48px;
+				width: 64px;
+				height: 64px;
 			}
 
 		.image.fit {
@@ -2110,7 +2110,7 @@
 /* Footer */
 
 	#footer {
-		margin-left: 375px;
+		margin-right: 375px;
 		text-align: center;
 		background-color: #dce3e2;
 		padding: 3em 0 4em 0;
@@ -2217,7 +2217,7 @@
 		/* Footer */
 
 			#footer {
-				margin-left: 300px;
+				margin-right: 300px;
 			}
 
 		/* Main */
@@ -2300,7 +2300,7 @@
 		/* Footer */
 
 			#footer {
-				margin-left: 20%;
+				margin-right: 20%;
 			}
 
 		/* Main */
@@ -2474,7 +2474,7 @@
 		/* Footer */
 
 			#footer {
-				margin-left: 0;
+				margin-right: 0;
 			}
 
 		/* Main */
