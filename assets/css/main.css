@@ -1634,7 +1634,7 @@
 	a {
 		text-decoration: none;
 		color: inherit;
-		border-bottom: dotted 1px rgba(128, 128, 128, 0.5);
+		/*border-bottom: dotted 1px rgba(128, 128, 128, 0.5);*/
 		-moz-transition: color 0.35s ease-in-out, border-bottom-color 0.35s ease-in-out;
 		-webkit-transition: color 0.35s ease-in-out, border-bottom-color 0.35s ease-in-out;
 		-ms-transition: color 0.35s ease-in-out, border-bottom-color 0.35s ease-in-out;
@@ -2203,7 +2203,6 @@
 				background-color: #e8edec;
 				background-image: url("../../images/contact.jpg");
 				padding: 0;
-
 			}
 
 /* Wide */
