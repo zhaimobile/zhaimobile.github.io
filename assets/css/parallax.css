@@ -116,10 +116,6 @@
     width: 100%;
 }
 
-.poster.hidden{
-    display: none;
-}
-
 .video-container .title-container {
     z-index: 1000;
     position: absolute;
@@ -134,4 +130,17 @@
     letter-spacing: 0;
     font-weight: 400;
     color: #ccc;
+}
+
+@media screen and (min-width: 480px) {
+    .poster.hidden{
+        display: none;
+        background-repeat: no-repeat;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .video-container video{
+        display: none;
+    }
 }
