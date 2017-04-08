@@ -12,6 +12,14 @@ $(document).ready(function($) {
     });
 });
 
+$(document).ready(function($) {
+    var vid = document.getElementById("moplayer");
+
+    vid.play();
+    vid.volume = 0.1;
+});
+
+
 //scaleVideoContainer
 $( document ).ready(function() {
     scaleVideoContainer();

@@ -143,4 +143,13 @@
     .video-container video{
         display: none;
     }
+    #moplayer{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 960px) {
+    #moplayer{
+        display: none;
+    }
 }
